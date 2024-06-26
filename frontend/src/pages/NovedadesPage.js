@@ -1,16 +1,17 @@
 import React from 'react'
+import '../styles/components/pages/NovedadesPage.css'
 
 const NovedadesPage = () => {
   return (
-    <section>
-      <h2>Novedades</h2>
-      <div className='novedades'>
-        <h1>Título</h1>
-        <h2>Subtítulo</h2>
-        <p>Cuerpo</p>
-        <hr/>
+    <main className='holder novedad'>
+      <div className='novedad'>
+            <img src="images/novedades/imagen1.png" alt="" />
+            <img src="images/novedades/imagen2.png" alt="" />
+            <img src="images/novedades/imagen3.png" alt="" />
+            <img src="images/novedades/imagen4.png" alt="" />
+            <img src="images/novedades/imagen5.png" alt="" />
       </div>
-    </section>
+    </main>
   )
 }
 

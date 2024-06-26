@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+/*Estas clases son para el proyecto*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.holder{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h2{
+  color:#F7911E;
+  font-weight: 400;
+}
+
